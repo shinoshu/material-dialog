@@ -22,6 +22,7 @@ import { DialogOverviewExampleDialogComponent } from './dialog-overview-example-
     AppRoutingModule,
     DemoMaterialModule
   ],
+  entryComponents: [DialogOverviewExampleDialogComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
