@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { DemoMaterialModule } from './material-module';
 
@@ -17,6 +18,7 @@ import { DialogOverviewExampleDialogComponent } from './dialog-overview-example-
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     AppRoutingModule,
     DemoMaterialModule
   ],
