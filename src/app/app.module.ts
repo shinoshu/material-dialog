@@ -6,11 +6,13 @@ import { DemoMaterialModule } from './material-module';
 
 import { AppComponent } from './app.component';
 import { DialogOverviewExampleComponent } from './dialog-overview-example/dialog-overview-example.component';
+import { DialogOverviewExampleDialogComponent } from './dialog-overview-example-dialog/dialog-overview-example-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogOverviewExampleComponent
+    DialogOverviewExampleComponent,
+    DialogOverviewExampleDialogComponent
   ],
   imports: [
     BrowserModule,
